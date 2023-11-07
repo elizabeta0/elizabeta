@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Suomi-Venäjä kääntäjä"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:textColor="@color/cardview_dark_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.437"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.036" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="376dp"
+        android:layout_height="113dp"
+        android:text="Syötä käännettävä teksti"
+        android:textColorHint="@color/purple_200"
+        android:textSize="19dp"
+        app:layout_height="109dp"
+        app:layout_width="350dp"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="82dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="364dp"
+        android:layout_height="57dp"
+        android:text="kääntää"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="231dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="334dp"
+        android:layout_height="112dp"
+        android:text="Еulos"
+        android:background="@color/cardview_light_background"
+        android:textSize="19dp"
+        android:textColorHint="@color/purple_200"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="321dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
